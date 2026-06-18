@@ -5,9 +5,15 @@ __pycache__/
 .ipynb_checkpoints/
 tmp_uploads/
 medical_ai_evidence.sqlite
+*.sqlite
 eval/outputs/
 .env
 .DS_Store
+Thumbs.db
+*.log
+
+# Local Claude Code settings (machine-specific permissions)
+.claude/settings.local.json
 
 # Local/professor visual material
 assets/
@@ -17,3 +23,6 @@ assets/
 
 # Local duplicate; the shareable PDF lives in docs/appel_offre.pdf
 /appel_offre.pdf
+
+# Downloaded RSNA dataset (large, fetched via data/import_RSNA.py)
+data/rsna_pneumonia/
